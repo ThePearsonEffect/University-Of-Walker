@@ -1,2 +1,4 @@
 # Custom Dictionary Words
+Behaviour
+Bioinformatics
 right:32px;
