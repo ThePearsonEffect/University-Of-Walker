@@ -96,7 +96,12 @@
         position: relative;
         top:16%;
         left:8%;
-
+    }
+    form{
+        margin: 2.4rem;
+    }
+    input{
+        font-size: 1.8rem;
     }
 
 
@@ -116,32 +121,4 @@
 
     /*Media Query */
 
-    @media only screen and (max-width: 768px){
-        nav{
-            flex-direction: column;
-            position: relative;
-        }
-        nav box-icon{
-            display: block;
-            position: absolute;
-            top:18px
-            right 32px;
-        }
-
-        }
-        nav ul{
-            background-color: #f5f5f5;
-            display: none;
-        }
-
-
-        .showmenu{
-            display: block;
-        }
-        nav ul li{
-            display: block;
-            padding: 2% 0;
-        }
-        nav ul li a{
-            color: #0c0c0c;
-        }
+    
