@@ -1,0 +1,61 @@
+    @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+    /*Base Styling  */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 63.5%;
+    }
+
+    body{
+        font-family: Anton+SC, sans-serif;
+    }
+    a{
+        text-decoration: none;
+        font-weight: 400;
+        /* 1.6*10= 16px */
+        font-size: 1.6rem;
+    }
+    h1,h2,p{
+
+        margin: 1.6rem 0;
+    }
+    h1{
+        font-weight: 800;
+        font-size: 3.6rem;
+    }
+    h2{
+        font-weight: 800;
+        font-size: 2.4rem;
+    }
+    p{
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+    img{
+        width: 100%;
+        height:auto;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+
+    section{
+        padding: 100px;
+    }
+       
+
+
+    /* Hero Section */
+    header{
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)), url(image/street.jpg) no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
